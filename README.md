@@ -197,4 +197,5 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 
 ## Notes:
 * TODO:
-    * Check if 'bloc' dependency could be discarded, since we are not using  
+    * Check if 'bloc' dependency could be discarded, since we are not using
+* [Android] Change applicationId
