@@ -173,7 +173,9 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 
 ## How to run?
 * [iOS] Have a [membership](https://developer.apple.com/support/compare-memberships/) (at least the [apple developer program](https://developer.apple.com/programs/))
-    * Since you need certain certificates to push notifications
+    * Since you need certain certificates to push notifications -- [Link](https://firebase.google.com/docs/cloud-messaging/flutter/client?hl=es-419#ios)
+* Firebase configuration
+  * Follow [these instructions](https://firebase.google.com/docs/flutter/setup?hl=es-419&platform=ios)
 * Configure your device
     * Simulator
         * Built-in IDE
@@ -194,6 +196,9 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
     * Via terminal
         * `flutter run lib/main.dart`
             * 'lib/main.dart' depends on the relative path between your current terminal and the 'main.dart' file
+* Push a notification from Firebase as additional information with key 'product'
+  * Problems:
+    * Problem1: Something is wrongly configured in Firebase, because it's not received
 
 ## Notes:
 * TODO:

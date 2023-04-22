@@ -5,6 +5,7 @@ class MessageScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
+    // Read the arguments passed
     final args = ModalRoute.of(context)?.settings.arguments ?? 'No data';
 
     return Scaffold(
