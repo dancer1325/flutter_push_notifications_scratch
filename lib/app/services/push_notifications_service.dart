@@ -68,6 +68,7 @@ class PushNotificationService {
   }
 
   // Apple / Web
+  // Ask to the customer if they want to receive push notifications
   // Future   Because we have async processes
   static requestPermission() async {
     NotificationSettings settings = await messaging.requestPermission(
