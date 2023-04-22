@@ -194,3 +194,7 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
     * Via terminal
         * `flutter run lib/main.dart`
             * 'lib/main.dart' depends on the relative path between your current terminal and the 'main.dart' file
+
+## Notes:
+* TODO:
+    * Check if 'bloc' dependency could be discarded, since we are not using  
